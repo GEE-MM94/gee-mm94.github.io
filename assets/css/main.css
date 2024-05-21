@@ -1,11 +1,47 @@
 
+body {
+  background-color: darkgoldenrod;
+}
+.name {
+  font-size: 2rem;
+}
 * {
     margin: 0;
     padding: 0;
 }
-h1{
-    color: red;
+nav,
+.nav-links {
+  display: flex;
 }
-body {
-  background-color: linen;
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
 }
+.wrapper {
+			display: grid;
+			grid-template-columns: 1fr 5fr 2fr;
+			grid-template-rows: 5fr 20fr 5fr;
+			grid-gap: 10px;
+			height: 100%;
+		}
+
+		header {
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}
+
+		footer {
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}
+
+		.wrapper * {
+			background: linen;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 1px;
+			margin-right: 1px;
+		}
