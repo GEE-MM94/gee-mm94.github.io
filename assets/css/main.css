@@ -44,6 +44,11 @@ a {
   text-decoration-color: white;
 }
 
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
 a:hover {
   color: grey;
   text-decoration: underline;
@@ -54,7 +59,9 @@ a:hover {
 .logo {
   font-size: 2rem;
 }
-
+.about-pic {
+  border-radius: 2rem;
+}
 .logo:hover {
   cursor: default;
 }
@@ -82,7 +89,7 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin-left:  10;
 }
 
 .section__text {
@@ -109,6 +116,7 @@ section {
   font-size: 3rem;
   text-align: center;
 }
+
 .intro_text {
   text-align: center;
 }
@@ -200,6 +208,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  
 }
 
 #experience {
