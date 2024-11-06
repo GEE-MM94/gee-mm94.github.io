@@ -41,9 +41,10 @@ a:hover {
 
 .about-pic {
   border-radius: 2rem;
-  height: 400px;
+  width: 100%;
+  height: auto;
   align-self: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 section {
@@ -126,8 +127,8 @@ section {
   gap: 1rem;
 }
 .btn-container {
-  gap: 5rem;
-  padding: 10%;
+  gap: 2rem;
+  padding: 5%;
 }
 .btn {
   font-weight: 600;
@@ -195,12 +196,10 @@ section {
 }
 
 .user-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
-  background: white;
+  background: rgb(214, 214, 182);
   border-radius: 2rem;
-  border: rgb(214, 56, 56) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
   text-align: center;
 }
 
