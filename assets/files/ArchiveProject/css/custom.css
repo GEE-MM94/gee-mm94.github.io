@@ -1,0 +1,30 @@
+.no-padding{
+    padding: 0!important;
+}
+.feature-icon-large p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.float-inline{
+    float: none!important;
+    display: inline-block;
+    width: 300px;
+}
+.primary-features .feature-icon-large i{
+    color: white;
+}
+.primary-features p, .primary-features h1 {
+    color: white;
+}
+@media (max-width:767px) {
+    .mobile-img-bg {
+        background: rgba(0,0,0,0.6);
+    }
+    .mobile-img-bg p {
+        color: white;
+    }
+}
+.form-contact .inputs-wrapper{
+    border-radius:0; 
+}
